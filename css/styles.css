@@ -7,6 +7,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 /* shared style */
 .display-flex{
@@ -37,6 +38,10 @@ body {
     align-items: center;
    
 }
+.nav-bar .brand{
+    font-weight: 700;
+    font-size: 22px;
+}
 .nav-list{
    
 }
@@ -54,8 +59,66 @@ body {
 }
 
 .nav-bar, .banner{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
+    padding: 50px 100px;
     /* border: 2px solid black; */
    
+}
+img{
+    /* max-width: 100%; */
+}
+
+/* banner */
+.banner{
+    /* display: block;
+    margin: 0 auto;
+    text-align: center; */
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.banner-descripation{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 30px; 
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    transition: background-color  0.3s ease ;
+}
+.btn-primary:hover{
+    background-color: #d37407;
+
+}
+.banner .banner-img {
+    width: 100%;
+    /* height: auto; */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* responnsive media query */
+@media screen and (max-width:576px) {
+    .nav-bar, .nav-list{
+        flex-direction: column;
+    }
+    
 }
