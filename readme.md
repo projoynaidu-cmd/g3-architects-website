@@ -90,7 +90,8 @@ To run this project locally:
 
 ## 🙌 Credits
 
-Designed and coded by [Your Name].
+Designed and coded by projoy naidu .
+Powered by VueNexus
 
 Font from [Google Fonts - Work Sans](https://fonts.google.com/specimen/Work+Sans)
 
